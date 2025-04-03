@@ -1,0 +1,74 @@
+site_name: mrdyao
+theme:
+  name: material          # 主题
+  logo: images/logo.svg   # logo 设置 docs 目录下
+  language: zh
+
+  palette: # 切换主题明暗
+    # Palette toggle for light mode
+    - media: "(prefers-color-scheme: light)"
+      scheme: default
+      toggle:
+        icon: material/lightbulb-outline
+        name: 切换到夜间模式
+
+    # Palette toggle for dark mode
+    - media: "(prefers-color-scheme: dark)"
+      scheme: slate
+      primary: grey
+      toggle:
+        icon: material/lightbulb
+        name: 切换日间模式
+
+  features:
+    - navigation.top     # 返回顶部
+    - search.highlight   # 搜索结果高亮显示
+    - navigation.expand  # 类目展开
+    - content.code.copy  # 代码复制按钮
+    - navigation.footer  # 翻页
+    - navigation.tabs.sticky  # 顶部隐藏
+    - toc.integrate
+
+markdown_extensions:
+  - pymdownx.highlight:
+      anchor_linenums: true
+      line_spans: __span
+      pygments_lang_class: true
+  - pymdownx.inlinehilite
+  - pymdownx.snippets
+  - pymdownx.superfences
+  - pymdownx.critic
+  - pymdownx.caret
+  - pymdownx.keys         # 键盘按键
+  - pymdownx.mark
+  - pymdownx.tilde
+
+extra_css:
+  - stylesheets/extra.css    # 返回顶部
+
+extra:
+  generator: false    # 隐藏页脚
+  favicon: images/favicon.png  # 指定 favicon 路径    sit img
+
+extra_javascript:
+  - javascripts/custom.js     # 点击 LOGO 不让跳转
+
+nav:
+  - 系统:
+      - Windows: 系统/Windows.md
+      - 黑苹果: 系统/黑苹果.md
+  - 软件:
+      - 下载: 软件/下载.md
+      - 安装: 软件/安装.md
+      - 代码: 软件/代码.md
+  - 娱乐:
+      - 音乐: 娱乐/音乐.md
+      - 电影: 娱乐/电影.md
+  - 游戏:
+      - PES 2021: 游戏/PES 2021.md
+      - DCS World: 游戏/DCS World.md
+
+plugins:
+  - redirects:
+      redirect_maps:
+        '软件/下载.md': 'index.md'
