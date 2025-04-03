@@ -25,6 +25,3 @@ p {
     display: none;
 }
 
-.md-tabs__link[href="./"] {
-    display: none;
-}
