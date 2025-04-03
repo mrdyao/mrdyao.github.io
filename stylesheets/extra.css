@@ -1,0 +1,27 @@
+/* 调整一级标题颜色为红色 */
+h1 {
+    color: red;
+}
+
+/* 调整二级标题颜色为灰色 */
+h2 {
+    color: Grey;
+}
+/* 调整段落的上下外边距为 20px */
+p {
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+.md-grid {
+  max-width: 1440px;
+}
+
+.md-header__title {
+    display: none;
+}
+
+.md-nav--primary .md-nav__title[for="__drawer"] {
+    display: none;
+}
+
