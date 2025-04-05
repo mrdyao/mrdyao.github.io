@@ -4,6 +4,7 @@ theme:
   logo: images/logo.svg   # logo 设置 docs 目录下
   language: zh
 
+
   palette: # 切换主题明暗
     # Palette toggle for light mode
     - media: "(prefers-color-scheme: light)"
@@ -42,6 +43,8 @@ markdown_extensions:
   - pymdownx.keys         # 键盘按键
   - pymdownx.mark
   - pymdownx.tilde
+  - attr_list             # 链接跳转到新标签
+  - tables                # 表
 
 extra_css:
   - stylesheets/extra.css    # 返回顶部
@@ -69,6 +72,7 @@ nav:
       - DCS World: 游戏/DCS World.md
 
 plugins:
+  - search
   - redirects:
       redirect_maps:
         '软件/下载.md': 'index.md'

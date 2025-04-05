@@ -1,3 +1,275 @@
+## 系统下载 
+Windows^XP^
+
+![XP](images/winxp.png)
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <style>
+    table {
+      border-collapse: collapse;
+      width: 100%;
+    }
+
+    td {
+      padding: 5px;
+    }
+
+    .label {
+      text-align: right;
+      font-weight: bold;
+    }
+  </style>
+</head>
+
+<body>
+  <table>
+    <tr>
+      <td class="label">文件名：</td>
+      <td>zh-hans_windows_xp_professional_with_service_pack_3_x86_cd_x14-80404.iso</td>
+    </tr>
+    <tr>
+      <td class="label">SHA1：</td>
+      <td>69DBF131116760932DCF132ADE111D6B45778098</td>
+    </tr>
+    <tr>
+      <td class="label">文件大小：</td>
+      <td>601.04MB</td>
+    </tr>
+    <tr>
+      <td class="label">发布时间：</td>
+      <td>2008-05-01</td>
+    </tr>
+  </table>
+</body>
+
+</html>  
+
+```
+ed2k://|file|zh-hans_windows_xp_professional_with_service_pack_3_x86_cd_x14-80404.iso|630239232|CD0900AFA058ACB6345761969CBCBFF4|/
+```
+
+
+Windows^7^
+
+![7](images/win7.png)
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <style>
+    table {
+      border-collapse: collapse;
+      width: 100%;
+    }
+
+    td {
+      padding: 5px;
+    }
+
+    .label {
+      text-align: right;
+      font-weight: bold;
+    }
+  </style>
+</head>
+
+<body>
+  <table>
+    <tr>
+      <td class="label">文件名：</td>
+      <td>cn_windows_7_ultimate_with_sp1_x64_dvd_u_677408.iso</td>
+    </tr>
+    <tr>
+      <td class="label">SHA1：</td>
+      <td>2CE0B2DB34D76ED3F697CE148CB7594432405E23</td>
+    </tr>
+    <tr>
+      <td class="label">文件大小：</td>
+      <td>3.19GB</td>
+    </tr>
+    <tr>
+      <td class="label">发布时间：</td>
+      <td>2011-05-12</td>
+    </tr>
+  </table>
+</body>
+
+</html>  
+
+```
+ed2k://|file|cn_windows_7_ultimate_with_sp1_x64_dvd_u_677408.iso|3420557312|B58548681854236C7939003B583A8078|/
+```
+
+Windows^10^
+
+![10](images/win10.png)
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <style>
+    table {
+      border-collapse: collapse;
+      width: 100%;
+    }
+
+    td {
+      padding: 5px;
+    }
+
+    .label {
+      text-align: right;
+      font-weight: bold;
+    }
+  </style>
+</head>
+
+<body>
+  <table>
+    <tr>
+      <td class="label">文件名：</td>
+      <td>zh-cn_windows_10_consumer_editions_version_22h2_updated_oct_2024_x64_dvd_d0cfb2e9.iso</td>
+    </tr>
+    <tr>
+      <td class="label">SHA1：</td>
+      <td>7362475FF1EC340774425F89EC9F924853697BB7</td>
+    </tr>
+    <tr>
+      <td class="label">文件大小：</td>
+      <td>6.67GB</td>
+    </tr>
+    <tr>
+      <td class="label">发布时间：</td>
+      <td>2024-10-15</td>
+    </tr>
+  </table>
+</body>
+
+</html>  
+
+ED2K
+
+```
+ed2k://|file|zh-cn_windows_10_consumer_editions_version_22h2_updated_oct_2024_x64_dvd_d0cfb2e9.iso|7167156224|CFF635F6DCD2011100864BDFD3CAF429|/
+```
+BT
+
+```
+magnet:?xt=urn:btih:f5001d461ae74a2833b0cbe6d768b06f436443bc&dn=zh-cn_windows_10_consumer_editions_version_22h2_updated_oct_2024_x64_dvd_d0cfb2e9.iso&xl=7167156224
+```
+
+Windows^11^
+
+![11](images/win11.png)
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <style>
+    table {
+      border-collapse: collapse;
+      width: 100%;
+    }
+
+    td {
+      padding: 5px;
+    }
+
+    .label {
+      text-align: right;
+      font-weight: bold;
+    }
+  </style>
+</head>
+
+<body>
+  <table>
+    <tr>
+      <td class="label">文件名：</td>
+      <td>zh-cn_windows_11_consumer_editions_version_23h2_updated_sep_2024_x64_dvd_edcefbe4.iso</td>
+    </tr>
+    <tr>
+      <td class="label">SHA1：</td>
+      <td>E9EA08DA0FCE4EEE537ACAB6949924455E107178</td>
+    </tr>
+    <tr>
+      <td class="label">文件大小：</td>
+      <td>6.69GB</td>
+    </tr>
+    <tr>
+      <td class="label">发布时间：</td>
+      <td>2024-09-17</td>
+    </tr>
+  </table>
+</body>
+
+</html>  
+
+ED2K
+
+```
+ed2k://|file|zh-cn_windows_11_consumer_editions_version_23h2_updated_sep_2024_x64_dvd_edcefbe4.iso|7183915008|C7EDA8C62FA0A8020C100C89D0583D25|/
+```
+BT
+
+```
+magnet:?xt=urn:btih:c0dbf0b64fd2f16c9fbca08e123edf75eff5582e&dn=zh-cn_windows_11_consumer_editions_version_23h2_updated_sep_2024_x64_dvd_edcefbe4.iso&xl=7183915008
+```
+
+## 哈希值对照
+
+用系统自带PowerShell命令
+
+    在你想查看的某个文件路径下，空白处，按着键盘Shift +鼠标右键，就可以在当前路径下(此处)打开PowerShell窗口，打开后直接就是指定到了当下路径。
+
+* `SHA1` - Get-FileHash -Path "路径" -Algorithm SHA1
+
+* `SHA5` - Get-FileHash -Path "路径" -Algorithm MD5
+
+## 跳过联网
+
+电脑不要插入网线，输入++shift++ + ++f10++ ,输入代码 ```oobe\bypassnro``` 回车后系统自动重启
+
+## 安装流程
+`制作U 盘`：[微 PE](https://www.wepe.com.cn/){:target="_blank"}
+
+1. 插入U盘：将准备好的U盘插入电脑USB接口。
+2. 运行微PE工具箱：双击运行下载好的微PE工具箱安装包。
+3. 选择安装到U盘：
+     点击“安装PE到U盘”。
+     在弹出的界面中，确认选择的U盘无误（注意不要选错磁盘，以免数据丢失）。
+     选择安装方案，推荐选择“方案一”，可同时支持UEFI/Legacy启动。
+     其他选项可保持默认，点击“立即安装进U盘”。
+4. 等待制作完成：微PE会自动格式化U盘并写入启动文件，制作过程通常需要几分钟。完成后，点击“完成安装”。
+5. 复制系统镜像：将下载好的系统，GHO镜像文件或者ISO镜像文件复制到制作好的微PE启动U盘中。
+
+![制作U盘](images/WeiPE.gif)
+
+`分区工具`：[Diskgenius](https://www.diskgenius.cn/){:target="_blank"} ==在开始安装前，请务必自行备份重要数据。==
+
+   * 引导模式为 Legacy，对应的分区类型为MBR。 (旧电脑引导模式)
+   * 引导模式为 UEFI，对应的分区类型为GUID(GPT分区)。 【固态硬盘】
+     
+    ==对齐分区：勾选“对齐分区到以下扇区数的整数倍”，并选择“4096”，以优化SSD硬盘的性能。==
+ 
+`进入Bios`：开机时按 ++del++ 键 进入BIOS后，点“BOOT”选项，并点击进入“Hard Disk Drives”设置。将“1ST BOOT”选项修改为“USB HDD”，然后按下 ++f10++ 保存更改并重启电脑。这样，在重启时系统将自动从U盘启动。
+
+![进入BIOS](images/bios.gif)
+
+`CGI还原系统`：适合安装备份的`.gho`或`.wim`文件。
+
+![CGI](images/CGI.gif)
+
 ## 主机配置 1
 | 配置 1 |                                                | 数量 |
 |------|------------------------------------------------|----|
@@ -30,12 +302,4 @@
 
 win7和win10共享出现了需要用户名和密码  ^^[解决办法](https://jingyan.baidu.com/article/48206aead5a952216ad6b3f4.html)^^.
 
-## 哈希值对照
 
-用系统自带PowerShell命令
-
-    在你想查看的某个文件路径下，空白处，按着键盘Shift +鼠标右键，就可以在当前路径下(此处)打开PowerShell窗口，打开后直接就是指定到了当下路径。
-
-* `SHA1` - Get-FileHash -Path "路径" -Algorithm SHA1
-
-* `SHA5` - Get-FileHash -Path "路径" -Algorithm MD5

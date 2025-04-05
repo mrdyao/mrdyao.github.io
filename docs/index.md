@@ -40,7 +40,13 @@
     <div class="image-item">
         <img src="images/office.png" alt="office">
         <div class="image-caption">
-            <a href="http://officecdn.microsoft.com/pr/492350F6-3A01-4F97-B9C0-C7C6DDF67D60/media/zh-cn/HomeStudent2021Retail.img" target="_blank">2021个人版</a>
+            <a href="https://c2rsetup.officeapps.live.com/c2r/download.aspx?productReleaseID=HomeStudent2019Retail&platform=Def&language=zh-CN&TaxRegion=sg&correlationId=3ccbaffc-036a-4d82-933a-b757202148f1&token=0450398c-bd26-40da-a647-902d4edc25e0&version=O16GA&source=AMC&StoreId=CFQ7TTC0K7C8" target="_blank">2019个人版</a>
+        </div>
+    </div>
+    <div class="image-item">
+        <img src="images/office.png" alt="office">
+        <div class="image-caption">
+            <a href="http://officecdn.microsoft.com/pr/492350F6-3A01-4F97-B9C0-C7C6DDF67D60/media/zh-cn/HomeStudent2021Retail.img" target="_blank">2021版(R9000P)</a>
         </div>
     </div>
     <div class="image-item">
