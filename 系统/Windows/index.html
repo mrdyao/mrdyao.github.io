@@ -72,7 +72,7 @@
     <div data-md-component="skip">
       
         
-        <a href="#1" class="md-skip">
+        <a href="#_1" class="md-skip">
           跳转至
         </a>
       
@@ -144,6 +144,46 @@
       <script>var palette=__md_get("__palette");if(palette&&palette.color){if("(prefers-color-scheme)"===palette.color.media){var media=matchMedia("(prefers-color-scheme: light)"),input=document.querySelector(media.matches?"[data-md-color-media='(prefers-color-scheme: light)']":"[data-md-color-media='(prefers-color-scheme: dark)']");palette.color.media=input.getAttribute("data-md-color-media"),palette.color.scheme=input.getAttribute("data-md-color-scheme"),palette.color.primary=input.getAttribute("data-md-color-primary"),palette.color.accent=input.getAttribute("data-md-color-accent")}for(var[key,value]of Object.entries(palette.color))document.body.setAttribute("data-md-color-"+key,value)}</script>
     
     
+    
+      
+      
+        <label class="md-header__button md-icon" for="__search">
+          
+          <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M9.5 3A6.5 6.5 0 0 1 16 9.5c0 1.61-.59 3.09-1.56 4.23l.27.27h.79l5 5-1.5 1.5-5-5v-.79l-.27-.27A6.52 6.52 0 0 1 9.5 16 6.5 6.5 0 0 1 3 9.5 6.5 6.5 0 0 1 9.5 3m0 2C7 5 5 7 5 9.5S7 14 9.5 14 14 12 14 9.5 12 5 9.5 5"/></svg>
+        </label>
+        <div class="md-search" data-md-component="search" role="dialog">
+  <label class="md-search__overlay" for="__search"></label>
+  <div class="md-search__inner" role="search">
+    <form class="md-search__form" name="search">
+      <input type="text" class="md-search__input" name="query" aria-label="搜索" placeholder="搜索" autocapitalize="off" autocorrect="off" autocomplete="off" spellcheck="false" data-md-component="search-query" required>
+      <label class="md-search__icon md-icon" for="__search">
+        
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M9.5 3A6.5 6.5 0 0 1 16 9.5c0 1.61-.59 3.09-1.56 4.23l.27.27h.79l5 5-1.5 1.5-5-5v-.79l-.27-.27A6.52 6.52 0 0 1 9.5 16 6.5 6.5 0 0 1 3 9.5 6.5 6.5 0 0 1 9.5 3m0 2C7 5 5 7 5 9.5S7 14 9.5 14 14 12 14 9.5 12 5 9.5 5"/></svg>
+        
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M20 11v2H8l5.5 5.5-1.42 1.42L4.16 12l7.92-7.92L13.5 5.5 8 11z"/></svg>
+      </label>
+      <nav class="md-search__options" aria-label="查找">
+        
+        <button type="reset" class="md-search__icon md-icon" title="清空当前内容" aria-label="清空当前内容" tabindex="-1">
+          
+          <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M19 6.41 17.59 5 12 10.59 6.41 5 5 6.41 10.59 12 5 17.59 6.41 19 12 13.41 17.59 19 19 17.59 13.41 12z"/></svg>
+        </button>
+      </nav>
+      
+    </form>
+    <div class="md-search__output">
+      <div class="md-search__scrollwrap" tabindex="0" data-md-scrollfix>
+        <div class="md-search-result" data-md-component="search-result">
+          <div class="md-search-result__meta">
+            正在初始化搜索引擎
+          </div>
+          <ol class="md-search-result__list" role="presentation"></ol>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+      
     
     
   </nav>
@@ -276,6 +316,42 @@
     <ul class="md-nav__list" data-md-component="toc" data-md-scrollfix>
       
         <li class="md-nav__item">
+  <a href="#_1" class="md-nav__link">
+    <span class="md-ellipsis">
+      系统下载
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#_2" class="md-nav__link">
+    <span class="md-ellipsis">
+      哈希值对照
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#_3" class="md-nav__link">
+    <span class="md-ellipsis">
+      跳过联网
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#_4" class="md-nav__link">
+    <span class="md-ellipsis">
+      安装流程
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
   <a href="#1" class="md-nav__link">
     <span class="md-ellipsis">
       主机配置 1
@@ -294,18 +370,9 @@
 </li>
       
         <li class="md-nav__item">
-  <a href="#_1" class="md-nav__link">
+  <a href="#_5" class="md-nav__link">
     <span class="md-ellipsis">
       共享提示密码
-    </span>
-  </a>
-  
-</li>
-      
-        <li class="md-nav__item">
-  <a href="#_2" class="md-nav__link">
-    <span class="md-ellipsis">
-      哈希值对照
     </span>
   </a>
   
@@ -670,6 +737,255 @@
 
   <h1>Windows</h1>
 
+<h2 id="_1">系统下载</h2>
+<p>Windows<sup>XP</sup></p>
+<p><img alt="XP" src="../images/winxp.png" /></p>
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <style>
+    table {
+      border-collapse: collapse;
+      width: 100%;
+    }
+
+    td {
+      padding: 5px;
+    }
+
+    .label {
+      text-align: right;
+      font-weight: bold;
+    }
+  </style>
+</head>
+
+<body>
+  <table>
+    <tr>
+      <td class="label">文件名：</td>
+      <td>zh-hans_windows_xp_professional_with_service_pack_3_x86_cd_x14-80404.iso</td>
+    </tr>
+    <tr>
+      <td class="label">SHA1：</td>
+      <td>69DBF131116760932DCF132ADE111D6B45778098</td>
+    </tr>
+    <tr>
+      <td class="label">文件大小：</td>
+      <td>601.04MB</td>
+    </tr>
+    <tr>
+      <td class="label">发布时间：</td>
+      <td>2008-05-01</td>
+    </tr>
+  </table>
+</body>
+
+</html>
+
+<div class="language-text highlight"><pre><span></span><code><span id="__span-0-1"><a id="__codelineno-0-1" name="__codelineno-0-1" href="#__codelineno-0-1"></a>ed2k://|file|zh-hans_windows_xp_professional_with_service_pack_3_x86_cd_x14-80404.iso|630239232|CD0900AFA058ACB6345761969CBCBFF4|/
+</span></code></pre></div>
+<p>Windows<sup>7</sup></p>
+<p><img alt="7" src="../images/win7.png" /></p>
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <style>
+    table {
+      border-collapse: collapse;
+      width: 100%;
+    }
+
+    td {
+      padding: 5px;
+    }
+
+    .label {
+      text-align: right;
+      font-weight: bold;
+    }
+  </style>
+</head>
+
+<body>
+  <table>
+    <tr>
+      <td class="label">文件名：</td>
+      <td>cn_windows_7_ultimate_with_sp1_x64_dvd_u_677408.iso</td>
+    </tr>
+    <tr>
+      <td class="label">SHA1：</td>
+      <td>2CE0B2DB34D76ED3F697CE148CB7594432405E23</td>
+    </tr>
+    <tr>
+      <td class="label">文件大小：</td>
+      <td>3.19GB</td>
+    </tr>
+    <tr>
+      <td class="label">发布时间：</td>
+      <td>2011-05-12</td>
+    </tr>
+  </table>
+</body>
+
+</html>
+
+<div class="language-text highlight"><pre><span></span><code><span id="__span-1-1"><a id="__codelineno-1-1" name="__codelineno-1-1" href="#__codelineno-1-1"></a>ed2k://|file|cn_windows_7_ultimate_with_sp1_x64_dvd_u_677408.iso|3420557312|B58548681854236C7939003B583A8078|/
+</span></code></pre></div>
+<p>Windows<sup>10</sup></p>
+<p><img alt="10" src="../images/win10.png" /></p>
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <style>
+    table {
+      border-collapse: collapse;
+      width: 100%;
+    }
+
+    td {
+      padding: 5px;
+    }
+
+    .label {
+      text-align: right;
+      font-weight: bold;
+    }
+  </style>
+</head>
+
+<body>
+  <table>
+    <tr>
+      <td class="label">文件名：</td>
+      <td>zh-cn_windows_10_consumer_editions_version_22h2_updated_oct_2024_x64_dvd_d0cfb2e9.iso</td>
+    </tr>
+    <tr>
+      <td class="label">SHA1：</td>
+      <td>7362475FF1EC340774425F89EC9F924853697BB7</td>
+    </tr>
+    <tr>
+      <td class="label">文件大小：</td>
+      <td>6.67GB</td>
+    </tr>
+    <tr>
+      <td class="label">发布时间：</td>
+      <td>2024-10-15</td>
+    </tr>
+  </table>
+</body>
+
+</html>
+
+<p>ED2K</p>
+<p><div class="language-text highlight"><pre><span></span><code><span id="__span-2-1"><a id="__codelineno-2-1" name="__codelineno-2-1" href="#__codelineno-2-1"></a>ed2k://|file|zh-cn_windows_10_consumer_editions_version_22h2_updated_oct_2024_x64_dvd_d0cfb2e9.iso|7167156224|CFF635F6DCD2011100864BDFD3CAF429|/
+</span></code></pre></div>
+BT</p>
+<div class="language-text highlight"><pre><span></span><code><span id="__span-3-1"><a id="__codelineno-3-1" name="__codelineno-3-1" href="#__codelineno-3-1"></a>magnet:?xt=urn:btih:f5001d461ae74a2833b0cbe6d768b06f436443bc&amp;dn=zh-cn_windows_10_consumer_editions_version_22h2_updated_oct_2024_x64_dvd_d0cfb2e9.iso&amp;xl=7167156224
+</span></code></pre></div>
+<p>Windows<sup>11</sup></p>
+<p><img alt="11" src="../images/win11.png" /></p>
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <style>
+    table {
+      border-collapse: collapse;
+      width: 100%;
+    }
+
+    td {
+      padding: 5px;
+    }
+
+    .label {
+      text-align: right;
+      font-weight: bold;
+    }
+  </style>
+</head>
+
+<body>
+  <table>
+    <tr>
+      <td class="label">文件名：</td>
+      <td>zh-cn_windows_11_consumer_editions_version_23h2_updated_sep_2024_x64_dvd_edcefbe4.iso</td>
+    </tr>
+    <tr>
+      <td class="label">SHA1：</td>
+      <td>E9EA08DA0FCE4EEE537ACAB6949924455E107178</td>
+    </tr>
+    <tr>
+      <td class="label">文件大小：</td>
+      <td>6.69GB</td>
+    </tr>
+    <tr>
+      <td class="label">发布时间：</td>
+      <td>2024-09-17</td>
+    </tr>
+  </table>
+</body>
+
+</html>
+
+<p>ED2K</p>
+<p><div class="language-text highlight"><pre><span></span><code><span id="__span-4-1"><a id="__codelineno-4-1" name="__codelineno-4-1" href="#__codelineno-4-1"></a>ed2k://|file|zh-cn_windows_11_consumer_editions_version_23h2_updated_sep_2024_x64_dvd_edcefbe4.iso|7183915008|C7EDA8C62FA0A8020C100C89D0583D25|/
+</span></code></pre></div>
+BT</p>
+<div class="language-text highlight"><pre><span></span><code><span id="__span-5-1"><a id="__codelineno-5-1" name="__codelineno-5-1" href="#__codelineno-5-1"></a>magnet:?xt=urn:btih:c0dbf0b64fd2f16c9fbca08e123edf75eff5582e&amp;dn=zh-cn_windows_11_consumer_editions_version_23h2_updated_sep_2024_x64_dvd_edcefbe4.iso&amp;xl=7183915008
+</span></code></pre></div>
+<h2 id="_2">哈希值对照</h2>
+<p>用系统自带PowerShell命令</p>
+<div class="language-text highlight"><pre><span></span><code>在你想查看的某个文件路径下，空白处，按着键盘Shift +鼠标右键，就可以在当前路径下(此处)打开PowerShell窗口，打开后直接就是指定到了当下路径。
+</code></pre></div>
+<ul>
+<li>
+<p><code>SHA1</code> - Get-FileHash -Path "路径" -Algorithm SHA1</p>
+</li>
+<li>
+<p><code>SHA5</code> - Get-FileHash -Path "路径" -Algorithm MD5</p>
+</li>
+</ul>
+<h2 id="_3">跳过联网</h2>
+<p>电脑不要插入网线，输入<span class="keys"><kbd class="key-shift">Shift</kbd></span> + <span class="keys"><kbd class="key-f10">F10</kbd></span> ,输入代码 <code>oobe\bypassnro</code> 回车后系统自动重启</p>
+<h2 id="_4">安装流程</h2>
+<p><code>制作U 盘</code>：<a href="https://www.wepe.com.cn/" target="_blank">微 PE</a></p>
+<ol>
+<li>插入U盘：将准备好的U盘插入电脑USB接口。</li>
+<li>运行微PE工具箱：双击运行下载好的微PE工具箱安装包。</li>
+<li>选择安装到U盘：
+     点击“安装PE到U盘”。
+     在弹出的界面中，确认选择的U盘无误（注意不要选错磁盘，以免数据丢失）。
+     选择安装方案，推荐选择“方案一”，可同时支持UEFI/Legacy启动。
+     其他选项可保持默认，点击“立即安装进U盘”。</li>
+<li>等待制作完成：微PE会自动格式化U盘并写入启动文件，制作过程通常需要几分钟。完成后，点击“完成安装”。</li>
+<li>复制系统镜像：将下载好的系统，GHO镜像文件或者ISO镜像文件复制到制作好的微PE启动U盘中。</li>
+</ol>
+<p><img alt="制作U盘" src="../images/WeiPE.gif" /></p>
+<p><code>分区工具</code>：<a href="https://www.diskgenius.cn/" target="_blank">Diskgenius</a> <mark>在开始安装前，请务必自行备份重要数据。</mark></p>
+<ul>
+<li>引导模式为 Legacy，对应的分区类型为MBR。 (旧电脑引导模式)</li>
+<li>
+<p>引导模式为 UEFI，对应的分区类型为GUID(GPT分区)。 【固态硬盘】</p>
+<p><mark>对齐分区：勾选“对齐分区到以下扇区数的整数倍”，并选择“4096”，以优化SSD硬盘的性能。</mark></p>
+</li>
+</ul>
+<p><code>进入Bios</code>：开机时按 <span class="keys"><kbd class="key-delete">Del</kbd></span> 键 进入BIOS后，点“BOOT”选项，并点击进入“Hard Disk Drives”设置。将“1ST BOOT”选项修改为“USB HDD”，然后按下 <span class="keys"><kbd class="key-f10">F10</kbd></span> 保存更改并重启电脑。这样，在重启时系统将自动从U盘启动。</p>
+<p><img alt="进入BIOS" src="../images/bios.gif" /></p>
+<p><code>CGI还原系统</code>：适合安装备份的<code>.gho</code>或<code>.wim</code>文件。</p>
+<p><img alt="CGI" src="../images/CGI.gif" /></p>
 <h2 id="1">主机配置 1</h2>
 <table>
 <thead>
@@ -784,20 +1100,8 @@
 </tr>
 </tbody>
 </table>
-<h2 id="_1">共享提示密码</h2>
+<h2 id="_5">共享提示密码</h2>
 <p>win7和win10共享出现了需要用户名和密码  <ins><a href="https://jingyan.baidu.com/article/48206aead5a952216ad6b3f4.html">解决办法</a></ins>.</p>
-<h2 id="_2">哈希值对照</h2>
-<p>用系统自带PowerShell命令</p>
-<div class="language-text highlight"><pre><span></span><code>在你想查看的某个文件路径下，空白处，按着键盘Shift +鼠标右键，就可以在当前路径下(此处)打开PowerShell窗口，打开后直接就是指定到了当下路径。
-</code></pre></div>
-<ul>
-<li>
-<p><code>SHA1</code> - Get-FileHash -Path "路径" -Algorithm SHA1</p>
-</li>
-<li>
-<p><code>SHA5</code> - Get-FileHash -Path "路径" -Algorithm MD5</p>
-</li>
-</ul>
 
 
 
