@@ -30,6 +30,8 @@ theme:
     - navigation.tabs.sticky  # 顶部隐藏
     - toc.integrate
 
+
+
 markdown_extensions:
   - pymdownx.highlight:
       anchor_linenums: true
@@ -45,6 +47,9 @@ markdown_extensions:
   - pymdownx.tilde
   - attr_list             # 链接跳转到新标签
   - tables                # 表
+  - admonition           #警告、提示
+  - pymdownx.tabbed:       # 代码多标签
+      alternate_style: true
 
 
 extra_css:

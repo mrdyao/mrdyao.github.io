@@ -1,3 +1,7 @@
+##  任务汉化工具
+
+[mizTranslator](https://www.digitalcombatsimulator.com/cn/files/3311465/){:target="_blank"}  
+
 ## 膝版安装位置
 指定机型膝版安装位置
  

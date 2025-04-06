@@ -155,16 +155,17 @@ Windows^10^
 
 </html>  
 
-ED2K
+=== "ed2k"
 
-```
-ed2k://|file|zh-cn_windows_10_consumer_editions_version_22h2_updated_oct_2024_x64_dvd_d0cfb2e9.iso|7167156224|CFF635F6DCD2011100864BDFD3CAF429|/
-```
-BT
+    ``` ed2k
+    ed2k://|file|zh-cn_windows_10_consumer_editions_version_22h2_updated_oct_2024_x64_dvd_d0cfb2e9.iso|7167156224|CFF635F6DCD2011100864BDFD3CAF429|/
+    ```
 
-```
-magnet:?xt=urn:btih:f5001d461ae74a2833b0cbe6d768b06f436443bc&dn=zh-cn_windows_10_consumer_editions_version_22h2_updated_oct_2024_x64_dvd_d0cfb2e9.iso&xl=7167156224
-```
+=== "BT种子"
+
+    ``` BT
+    magnet:?xt=urn:btih:f5001d461ae74a2833b0cbe6d768b06f436443bc&dn=zh-cn_windows_10_consumer_editions_version_22h2_updated_oct_2024_x64_dvd_d0cfb2e9.iso&xl=7167156224
+    ```
 
 Windows^11^
 
@@ -215,16 +216,18 @@ Windows^11^
 
 </html>  
 
-ED2K
 
-```
-ed2k://|file|zh-cn_windows_11_consumer_editions_version_23h2_updated_sep_2024_x64_dvd_edcefbe4.iso|7183915008|C7EDA8C62FA0A8020C100C89D0583D25|/
-```
-BT
+=== "ed2k"
 
-```
-magnet:?xt=urn:btih:c0dbf0b64fd2f16c9fbca08e123edf75eff5582e&dn=zh-cn_windows_11_consumer_editions_version_23h2_updated_sep_2024_x64_dvd_edcefbe4.iso&xl=7183915008
-```
+    ``` ed2k
+     ed2k://|file|zh-cn_windows_11_consumer_editions_version_23h2_updated_sep_2024_x64_dvd_edcefbe4.iso|7183915008|C7EDA8C62FA0A8020C100C89D0583D25|/
+    ```
+
+=== "BT种子"
+
+    ``` BT
+     magnet:?xt=urn:btih:c0dbf0b64fd2f16c9fbca08e123edf75eff5582e&dn=zh-cn_windows_11_consumer_editions_version_23h2_updated_sep_2024_x64_dvd_edcefbe4.iso&xl=7183915008
+    ```
 
 ## 哈希值对照
 
@@ -284,22 +287,22 @@ magnet:?xt=urn:btih:c0dbf0b64fd2f16c9fbca08e123edf75eff5582e&dn=zh-cn_windows_11
 
 
 ## 主机配置 2
-| 配置 2  |                                                | 数量 |
-|:------|:-----------------------------------------------|:---|
-| `CPU` | i5-4590 @ 3.30GHz 四核  Haswell                         |    |
-| `主板`  | 华硕 B85M-G ( Lynx Point )                       |    |
-| `内存`  | 金士顿 DDR3 1600MHz                               | 1  |
-| `硬盘`  | 机械 西数 WDC WD10EZEX-08M2NA0 ( 1 TB / 7200 转/分 ) |    |
-| `显卡`  |          Nvidia GeForce GTX 750 Ti ( 2 GB / 七彩虹 )                                      |    |
-|    `显示器`   |         飞利浦 PHLC0CF PHL 223V5 ( 21.7 英寸  )                                                                               |    |
-|    `光驱`   |                  索尼-NEC Optiarc DVD-ROM DDU1681S DVD光驱                                                                      |    |
-|     `声卡`      |                瑞昱 ALC887 @ 英特尔 Lynx Point  高保真音频                                                                                                             |    |
-|     `声卡`      |                          瑞昱 ALC887 @ 英特尔 Lynx Point HD Audio Controller    0887                                                                                                   |    |
-|      `网卡`     |                        瑞昱 RTL8168/8111/8112 Gigabit Ethernet Controller / 华硕                                                                                                     |    |
+| 配置 2  |                                                | 数量 | 驱动下载                                                                                                                                                 |
+|:------|:-----------------------------------------------|:---|------------------------------------------------------------------------------------------------------------------------------------------------------|
+| `CPU` | i5-4590 @ 3.30GHz 四核  Haswell                         |    | [核显](https://www.intel.cn/content/www/cn/zh/products/sku/80815/intel-core-i54590-processor-6m-cache-up-to-3-70-ghz/downloads.html){:target="_blank"} |
+| `主板`  | 华硕 B85M-G ( Lynx Point )                       |    |                                                                                                                                                      |
+| `内存`  | 金士顿 DDR3 1600MHz                               | 1  |                                                                                                                                                      |
+| `硬盘`  | 机械 西数 WDC WD10EZEX-08M2NA0 ( 1 TB / 7200 转/分 ) |    |                                                                                                                                                      |
+| `显卡`  |          Nvidia GeForce GTX 750 Ti ( 2 GB / 七彩虹 )                                      |    | [官网](https://www.nvidia.cn/geforce/drivers/){:target="_blank"}                                                                                       |
+|    `显示器`   |         飞利浦 PHLC0CF PHL 223V5 ( 21.7 英寸  )                                                                               |    |                                                                                                                                                      |
+|    `光驱`   |                  索尼-NEC Optiarc DVD-ROM DDU1681S DVD光驱                                                                      |    |                                                                                                                                                      |
+|     `声卡`      |                瑞昱 ALC887 @ 英特尔 Lynx Point  高保真音频                                                                                                             |    |                                                                                                                                                      |
+|     `声卡`      |                          瑞昱 ALC887 @ 英特尔 Lynx Point HD Audio Controller    0887                                                                                                   |    |                                                                                                                                                      |
+|      `网卡`     |                        瑞昱 RTL8168/8111/8112 Gigabit Ethernet Controller / 华硕                                                                                                     |    | [Win7](https://www.asus.com.cn/supportonly/b85m-g/helpdesk_download/){:target="_blank"}                                                                                                                                             |
 
 
 ## 共享提示密码
 
-win7和win10共享出现了需要用户名和密码  ^^[解决办法](https://jingyan.baidu.com/article/48206aead5a952216ad6b3f4.html)^^.
+win7和win10共享出现了需要用户名和密码  ^^[解决办法](https://jingyan.baidu.com/article/48206aead5a952216ad6b3f4.html){:target="_blank"}^^.
 
 
