@@ -73,6 +73,11 @@
     <label class="md-overlay" for="__drawer"></label>
     <div data-md-component="skip">
       
+        
+        <a href="#potplayer" class="md-skip">
+          跳转至
+        </a>
+      
     </div>
     <div data-md-component="announce">
       
@@ -390,6 +395,19 @@
       
       
       
+        <label class="md-nav__link md-nav__link--active" for="__toc">
+          
+  
+  
+  <span class="md-ellipsis">
+    安装
+    
+  </span>
+  
+
+          <span class="md-nav__icon md-icon"></span>
+        </label>
+      
       <a href="./" class="md-nav__link md-nav__link--active">
         
   
@@ -401,6 +419,110 @@
   
 
       </a>
+      
+        
+
+<nav class="md-nav md-nav--secondary" aria-label="目录">
+  
+  
+  
+  
+    <label class="md-nav__title" for="__toc">
+      <span class="md-nav__icon md-icon"></span>
+      目录
+    </label>
+    <ul class="md-nav__list" data-md-component="toc" data-md-scrollfix>
+      
+        <li class="md-nav__item">
+  <a href="#potplayer" class="md-nav__link">
+    <span class="md-ellipsis">
+      PotPlayer
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#kokoro-project" class="md-nav__link">
+    <span class="md-ellipsis">
+      kokoro-project
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#_1" class="md-nav__link">
+    <span class="md-ellipsis">
+      图吧工具箱
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="图吧工具箱">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#_2" class="md-nav__link">
+    <span class="md-ellipsis">
+      检查硬件
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#_3" class="md-nav__link">
+    <span class="md-ellipsis">
+      屏幕检测
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#_4" class="md-nav__link">
+    <span class="md-ellipsis">
+      磁盘检测
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#cpu" class="md-nav__link">
+    <span class="md-ellipsis">
+      CPU单烤
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#_5" class="md-nav__link">
+    <span class="md-ellipsis">
+      显卡单烤
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#_6" class="md-nav__link">
+    <span class="md-ellipsis">
+      双烤
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+    </ul>
+  
+</nav>
       
     </li>
   
@@ -641,7 +763,81 @@
 
   <h1>安装</h1>
 
-
+<h2 id="potplayer">PotPlayer</h2>
+<ul>
+<li>
+<p>可用指令安装 </p>
+<p>显示软件信息，不会进行下载和安装操作
+<div class="language-text highlight"><pre><span></span><code><span id="__span-0-1"><a id="__codelineno-0-1" name="__codelineno-0-1" href="#__codelineno-0-1"></a>winget show -s winget potplayer
+</span></code></pre></div>
+安装命令
+<div class="language-text highlight"><pre><span></span><code><span id="__span-1-1"><a id="__codelineno-1-1" name="__codelineno-1-1" href="#__codelineno-1-1"></a>winget install -s winget PotPlayer
+</span></code></pre></div></p>
+</li>
+<li>
+<p>快捷键配置</p>
+<p>打开一个potplayer窗口，右键-&gt;选项-&gt;(左下角)导出当前配置-&gt;自己找个位置存下来，这软件默认配置文件是.reg注册表格式，想导入直接双击.reg文件执行就行。</p>
+</li>
+</ul>
+<h2 id="kokoro-project">kokoro-project</h2>
+<ul>
+<li>
+<p>文字转语音模型  大小仅82M</p>
+</li>
+<li>
+<p><a href="https://github.com/thewh1teagle/kokoro-onnx" target="_blank">kokoro-onnx</a></p>
+</li>
+</ul>
+<h2 id="_1">图吧工具箱</h2>
+<ul>
+<li>
+<p><a href="../../">下载</a></p>
+</li>
+<li>
+<p>新机验机必备：图吧工具箱使用指南 （<mark>一定不能联网激活</mark>）跳过联网教程</p>
+</li>
+<li>
+<h4 id="_2">检查硬件</h4>
+<p>首先，打开图吧工具箱，检查一下硬件信息，比如CPU、显卡、内存等，看看是否和你购买时的配置一致。</p>
+</li>
+</ul>
+<p><img alt="硬件" src="../images/tuba1.jpeg" /></p>
+<ol>
+<li>
+<h4 id="_3">屏幕检测</h4>
+<p>接下来，检查一下屏幕有没有坏点或者漏光。一般超过3个坏点就可以判定是硬件问题，直接退货。</p>
+</li>
+</ol>
+<p><img alt="屏幕" src="../images/tuba2.jpeg" /> </p>
+<ol>
+<li>
+<h4 id="_4">磁盘检测</h4>
+<p>看看磁盘的通电时间和次数，一般来说，100次以内，50小时以内基本没有问题。</p>
+</li>
+</ol>
+<p><img alt="硬盘" src="../images/tuba3.jpeg" /> </p>
+<ol>
+<li>
+<h4 id="cpu">CPU单烤</h4>
+<p>然后是CPU单烤，看看CPU在满负荷运行时的表现。</p>
+</li>
+</ol>
+<p><img alt="cpu" src="../images/tuba4.jpeg" /> </p>
+<ol>
+<li>
+<h4 id="_5">显卡单烤</h4>
+<p>接着是GPU单烤，也就是显卡单烤，看看显卡在满负荷运行时的表现。</p>
+</li>
+</ol>
+<p><img alt="gpu" src="../images/tuba5.jpeg" /> </p>
+<ol>
+<li>
+<h4 id="_6">双烤</h4>
+<p>最后是双烤，同时进行CPU和GPU的测试。测试完毕后，把数据和其他博主的进行对比，看看有没有较大差别。</p>
+</li>
+</ol>
+<p><img alt="双烤" src="../images/tuba6.jpeg" /> </p>
+<p><mark>通过这些步骤，你可以确保你的新电脑在硬件上没有任何问题。记住，验机是一个很重要的步骤，不要省略</mark></p>
 
 
 
