@@ -1,8 +1,12 @@
-##  任务汉化工具
+[数字战斗模拟世界 (DCS World)](https://www.digitalcombatsimulator.com/cn/products/world/){:target="_blank"}
+
+![DCS](../images/dcs.png)
+
+##  任务汉化
 
 [mizTranslator](https://www.digitalcombatsimulator.com/cn/files/3311465/){:target="_blank"}  
 
-## 膝版安装位置
+## 膝版安装
 指定机型膝版安装位置
  
 * 安装目录\Mods\aircraft\FA-18C\Cockpit\Scripts\KNEEBOARD\pages\图片
@@ -15,7 +19,7 @@
 
 PS：任务miz改名成为zip，解压就能解除膝板图
 
-## 皮肤安装位置
+## 皮肤安装
 *  安装目录\Mods\aircraft\FA-18C\Liveries\FA-18C_hornet\皮肤
 * 安装目录\Mods\aircraft\F-16C\Liveries\Cockpit_F-16C\皮肤
 * 安装目录\Mods\aircraft\JF-17\Liveries\JF-17-CPT\皮肤
@@ -26,7 +30,7 @@ PS：任务miz改名成为zip，解压就能解除膝板图
 
 （如没有Liveries文件夹，手工建一个，优先用户的位置）
 
-## 座舱汉化安装
+## 座舱汉化
 设置里选择：中文   
 
 * 文件夹覆盖到安装目录里 安装目录\Mods\aircraft\JF-17 
@@ -39,11 +43,13 @@ PS：任务miz改名成为zip，解压就能解除膝板图
 
      Cockpit是覆盖燃油计量表的贴图
 
-## 第三方飞机模组
+## 飞机模组
 
-*  用户\Saved Games\DCS\Mods\aircraft\A-4E-C
+*  用户\Saved Games\DCS\Mods\aircraft\A-4E-C  [V1.4.2](https://github.com/Community-A-4E/community-a4e-c/releases/tag/v1.4.2){:target="_blank"}
 
-*  用户\Saved Games\DCS\Mods\tech\US Navy Equipment   (航母小人mod)
+*  用户\Saved Games\DCS\Mods\\ ==tech== \US Navy Equipment   [航母小人mod](https://www.digitalcombatsimulator.com/en/files/3301580/){:target="_blank"}
+
+*  用户\Saved Games\DCS\Mods\aircraft\Civil Aircraft Mod (民用飞机) [V0.87](https://e.pcloud.link/publink/show?code=kZnSSnZ0Qsvw5tKgvzON5OYcKDWMJJrL7yX){:target="_blank"}
 
 ## 键位设置
 
