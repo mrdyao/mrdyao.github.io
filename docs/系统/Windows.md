@@ -243,6 +243,8 @@ Windows^11^
 
 电脑不要插入网线，输入++shift++ + ++f10++ ,输入代码 ```oobe\bypassnro``` 回车后系统自动重启
 
+新的跳过联网命令 ```start ms-cxh:localonly```  这个不需要重启
+
 ## 安装流程
 `制作U 盘`：[微 PE](https://www.wepe.com.cn/){:target="_blank"}
 

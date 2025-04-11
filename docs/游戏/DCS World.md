@@ -1,6 +1,6 @@
 [数字战斗模拟世界 (DCS World)](https://www.digitalcombatsimulator.com/cn/products/world/){:target="_blank"}
 
-![DCS](../images/dcs.png)
+![DCS](https://github.com/mrdyao/mrdyao.github.io/blob/main/docs/%E6%B8%B8%E6%88%8F/images/DCS.png?raw=true)
 
 ##  任务汉化
 
