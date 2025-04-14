@@ -4,7 +4,9 @@
 
 ##  任务汉化
 
-[mizTranslator](https://www.digitalcombatsimulator.com/cn/files/3311465/){:target="_blank"}  
+[mizTranslator](https://www.digitalcombatsimulator.com/cn/files/3311465/){:target="_blank"}
+
+另把任务后缀名 miz 改名 zip 就可以打开编辑
 
 ## 膝版安装
 指定机型膝版安装位置
